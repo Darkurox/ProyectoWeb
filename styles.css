@@ -232,10 +232,14 @@ form button {
     display: flex;
     justify-content: center; /* Distribuye espacio entre los bloques */
     align-items: flex-start; /* Alinea los elementos al inicio de cada columna */
-
+    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 
+.Elementos_contacto img{
+    border-radius: 5%;
+}
 
 footer {
     background-color: #2c3e50;
