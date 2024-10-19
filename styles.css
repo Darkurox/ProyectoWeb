@@ -73,14 +73,57 @@ nav ul li a {
     background-color: #295C7A;
     color: white;
     font-weight: bold;
+    font-size: 18;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 section {
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
+
+
+.Acerca-grid-01,
+.Acerca-grid-02{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+
+.Acerca-item-01 {
+    background-color: #295C7A;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    height: 180px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Acerca-item-02 {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-bottom: 20px;
+    height: 280px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 
 .Especialidades-grid-01{
@@ -107,7 +150,9 @@ section {
     gap: 20px;
 }
 
-.Especialidades-titulo{
+.Especialidades-titulo,
+.Contacto-titulo,
+.Acerca-titulo{
     color: #C8B824;
     font-size: 30px;
     margin-left: 200px;
@@ -118,8 +163,8 @@ section {
     font-size: 20px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 
@@ -162,10 +207,12 @@ blockquote {
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    max-width: 600px;
-    margin: 0 auto;
+    gap: 32px;
+    width: 450px;
+    margin: 10px 30px;
 }
+
+
 
 form input, form textarea {
     padding: 10px;
@@ -181,10 +228,14 @@ form button {
     border-radius: 5px;
 }
 
-.info-contacto {
-    text-align: center;
-    margin-top: 20px;
+.Elementos_contacto{
+    display: flex;
+    justify-content: center; /* Distribuye espacio entre los bloques */
+    align-items: flex-start; /* Alinea los elementos al inicio de cada columna */
+
 }
+
+
 
 footer {
     background-color: #2c3e50;
